@@ -1,8 +1,8 @@
-# Ignored
+# Ignored directories
 support/__pycache__/
-userspace
+userspace/
 userspace/**
-serspace_new
-serspace_new/**
-.venv/**
-.idea/**
+userspace_new/
+userspace_new/**
+.venv/
+.idea/

@@ -69,8 +69,7 @@ main() {
 
     # Create a handy shortcut
     alias restruct='cd "$PWD"; python3.9 "$PWD/support/relocate.py" -j="$PWD/support/relocate.jsonc"; cd -'
-
-    echo "Initialized, use 'restruct' to execute."
+    printf "\nInitialized, edit support/relocate.jsonc and use 'restruct' to execute.\n"
     return 0
 }
 

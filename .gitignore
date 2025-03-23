@@ -1,5 +1,7 @@
 # Ignored
+support/__pycache__/
 userspace
 userspace/**
+serspace_new/**
 .venv/**
 .idea/**

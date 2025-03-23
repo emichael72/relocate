@@ -25,12 +25,12 @@ init_python_venv() {
         # Create a new virtual environment
         $PYTHON_VERSION -m venv $PYTHON_VENV_DIR
         source $PYTHON_VENV_DIR/bin/activate
-		
-		# Upgrade pip and add required packages
-        	python3.9 -m pip install --upgrade pip >/dev/null 2>&1
-        	pip install colorama >/dev/null 2>&1
-        
-		return 0
+
+	# Upgrade pip and add required packages
+        python3.9 -m pip install --upgrade pip >/dev/null 2>&1
+        pip install colorama >/dev/null 2>&1
+
+	return 0
     fi
 }
 

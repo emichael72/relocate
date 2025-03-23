@@ -26,7 +26,8 @@ init_python_venv() {
         $PYTHON_VERSION -m venv $PYTHON_VENV_DIR
         source $PYTHON_VENV_DIR/bin/activate
 		
-		# Add required packages
+		# Upgrade pip and add required packages
+		python3.9 -m pip install --upgrade pip
 		pip install colorama
         
 		return 0

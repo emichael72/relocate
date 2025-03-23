@@ -1,0 +1,5 @@
+# Ignored
+userspace
+userspace/**
+.venv/**
+.idea/**

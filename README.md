@@ -4,8 +4,7 @@
 The `relocate.py` script automates the process of relocating files and directories based on specified configurations. It supports filtering specific file types, managing a 'graveyard' for excluded files, and controlling the depth of directory traversal.
 
 ## Requirements
-- Python 3.9 or higher
-- The `os` and `shutil` libraries (standard with Python distributions)
+- Python 3.9 or Higher: This script requires Python version 3.9 or later.
 
 ## Installation
 Clone this repository desired directory.

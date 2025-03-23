@@ -27,8 +27,8 @@ init_python_venv() {
         source $PYTHON_VENV_DIR/bin/activate
 		
 		# Upgrade pip and add required packages
-		python3.9 -m pip install --upgrade pip
-		pip install colorama
+        	python3.9 -m pip install --upgrade pip >/dev/null 2>&1
+        	pip install colorama >/dev/null 2>&1
         
 		return 0
     fi
@@ -69,7 +69,7 @@ main() {
 
     # Create a handy shortcut
     alias restruct='cd "$PWD"; python3.9 "$PWD/support/relocate.py" -j="$PWD/support/relocate.jsonc"; cd -'
-    printf "\nInitialized, edit 'support/relocate.jsonc' and use 'restruct' to execute.\n"
+    printf "\nInitialized, edit 'support/relocate.jsonc' and use 'restruct' to execute.\n\n"
     return 0
 }
 
